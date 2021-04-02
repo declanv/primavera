@@ -1,0 +1,24 @@
+#poem {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  h1 {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    font-family: "TofinoProPersonalWide-BlackItalic", sans-serif;
+    color: white;
+    text-shadow: -29px 16px $brightBlue;
+  }
+
+  img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+}

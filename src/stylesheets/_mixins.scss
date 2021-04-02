@@ -1,0 +1,34 @@
+// font
+
+/*
+  fontFamily: required, pre-defined (see _variables)
+  customLetterSpacing: optional, will override defaults
+*/
+
+@mixin font-family($fontFamily, $customLetterSpacing: null, $customFontWeight: null) {
+  font-family: $fontFamily;
+
+  $defaultLetterSpacing: map-get($defaultLetterSpacings, $fontFamily);
+  $defaultFontWeight: map-get($defaultFontWeights, $fontFamily);
+
+  @if ($defaultLetterSpacing and not $customLetterSpacing) {
+    letter-spacing: $defaultLetterSpacing;
+  }
+
+  @if ($defaultFontWeight and not $customFontWeight) {
+    font-weight: $defaultFontWeight;
+  }
+
+  @if ($customLetterSpacing) {
+    letter-spacing: $customLetterSpacing;
+  }
+
+  @if ($customFontWeight) {
+    font-weight: $customFontWeight;
+  }
+}
+
+@mixin font-face($file) {
+  font-family: $file;
+  src: url('/src/fonts/#{$file}.otf') format('otf');
+}
