@@ -1,0 +1,22 @@
+#intro {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-height: 2000px;
+  overflow: hidden;
+  align-items: center;
+
+  #intro-background {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .collage-image {
+    position: absolute;
+    display: block;
+    z-index: 2;
+  }
+}

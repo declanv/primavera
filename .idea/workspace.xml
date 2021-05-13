@@ -20,11 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0166fb00-19de-4736-a39d-019bbf8a06fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stylesheets/sections/intro.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javascripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/javascripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stylesheets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/sections/poem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/sections/poem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,9 @@
       <updated>1617239581595</updated>
       <workItem from="1617239582761" duration="1206000" />
       <workItem from="1617327370351" duration="1926000" />
-      <workItem from="1617758092806" duration="2577000" />
+      <workItem from="1617758092806" duration="2845000" />
+      <workItem from="1620871938417" duration="1927000" />
+      <workItem from="1620912992245" duration="224000" />
     </task>
     <servers />
   </component>
@@ -92,5 +97,9 @@
       <screen x="-477" y="-1273" width="2304" height="1273" />
     </state>
     <state x="396" y="-828" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.852/-477.-1273.2304.1273@-477.-1273.2304.1273" timestamp="1617327943410" />
+    <state x="373" y="-882" width="604" height="490" key="find.popup" timestamp="1620872483596">
+      <screen x="-477" y="-1273" width="2304" height="1273" />
+    </state>
+    <state x="373" y="-882" width="604" height="490" key="find.popup/0.23.1440.852/-477.-1273.2304.1273@-477.-1273.2304.1273" timestamp="1620872483596" />
   </component>
 </project>
