@@ -19,4 +19,38 @@
     display: block;
     z-index: 2;
   }
+
+  .right {
+    right: 0;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .top {
+    top: 0;
+  }
+
+  .bottom {
+    bottom: 0;
+  }
+
+  .middle {
+    align-self: center;
+  }
+
+  .center {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #bunny-bottom {
+    height: 500px;
+    width: 100%;
+    background-image: url("/images/bunny-repeat-crop.png");
+    background-repeat: repeat-x;
+    bottom: 0;
+  }
+
 }
